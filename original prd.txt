@@ -1,0 +1,71 @@
+referenece websites:
+https://www.isakfragrances.com/
+https://www.raahiparfums.com/
+https://www.pujaperfumery.com/
+https://www.adilqadri.com/
+
+Swavik Fabric Perfumes - Product Requirements Document
+1. Product Overview
+Swavik Fabric Perfumes is a premium e-commerce "digital showroom" dedicated to high-end fabric fragrances originating from the historic perfume capital of India, Kannauj. The platform serves as both a brand storytelling vehicle and a functional retail store, targeting luxury
+fragrance enthusiasts, corporate B2B clients (hotels/boutiques), and gift seekers. The site emphasizes the heritage of Kannauj while providing a modern, seamless shopping experience.
+2. Problem Statement
+Traditional luxury perfume brands from heritage centers like Kannauj often lack a sophisticated digital presence that matches their product quality. Customers need a way to explore these artisanal scents through a high-end "showroom" interface, purchase them easily via modern
+Indian payment methods (UPI/COD), and receive professional order updates without a complex account creation process.
+3. Target Users
+Primary Persona: The Luxury Lifestyle Shopper (Ages 25-50).
+Demographics: Urban dwellers, high disposable income, values heritage and authenticity.
+Goals: Discovering unique scents for home/apparel, buying premium gifts, and experiencing the "story" of the fragrance.
+Acquisition: Reaches the site via Instagram/Facebook campaigns, organic search for "Kannauj perfumes," or direct referral from B2B partners.
+4. Core Features
+Showroom Experience (MVP): High-resolution visual galleries and scent profile descriptions (top, middle, base notes).
+Guest Checkout (MVP): Fast-track purchasing without mandatory account creation.
+Multi-Channel Payments (MVP): Integration for UPI (GPay/PhonePe), Credit/Debit cards, and Cash on Delivery.
+SMTP Email Notifications (MVP): Automated order confirmations and status updates.
+Fragrance Collections (V2): Global collection, middle eastern collection,Indian heritage collection, Gourmand collection
+Categorized browsing (Gifting, Swavik's Own, Sandalwood Therapy,),
+Order Tracking (V2): Dedicated page for tracking via Order ID.
+Admin Management (V2): Backend portal for inventory and order status updates.
+5. Screen-by-Screen Breakdown
+1. LandingScreen
+Purpose: To act as the digital showroom entrance, establishing brand luxury and heritage (Route: /).
+Key UI Elements: Sticky transparent navigation (Logo, Shop, Collections dropdown), Hero video/parallax image of Kannauj distillation, "The Essence of Kannauj" storytelling section, Featured Products carousel, and a newsletter footer.
+User Interactions: Clicking "Shop Now" to view products, hovering over the "Fragrance Collection" dropdown, and scrolling through the brand heritage narrative.
+2. ProductListingScreen
+Purpose: To browse the catalog with a focus on scent education and visual appeal (Route: /shop).
+Key UI Elements: Filter sidebar (Scent family, Price), Product grid with high-res imagery, "Quick View" cards showing scent notes (top/mid/base), and "Add to Cart" buttons.
+User Interactions: Filtering by collection, clicking a product to view detailed scent storytelling, and adding items to the persistent shopping drawer.
+3. CheckoutScreen
+Purpose: A streamlined, single-page guest checkout experience (Route: /checkout).
+Key UI Elements: Order summary, Shipping address form (with SMTP email field), Payment Method toggle (UPI, Card, COD), and a "Place Order" CTA.
+User Interactions: Entering delivery details, selecting UPI for mobile app redirection, and submitting the order to trigger the SMTP confirmation email.
+6. User Flows
+Primary Purchase Flow: LandingScreen -+ ProductListingScreen -+ Select Product -+ CheckoutScreen -+ Order Confirmation (Email).
+Discovery Flow: LandingScreen -+ Scroll to Heritage Section Click "Explore Collections" - ProductListingScreen.
+8. Design Guidelines
+
+Theme Style: "Modern Heritage" - Minimalist luxury with traditional Indian accents.
+Color Palette:
+Primary: #8B5E3C (Sandalwood Brown)
+Secondary: #D4AF37 (Metallic Gold)
+Background: #FDFBF7 (Cream Parchment)
+Text: #2D2D2D (Charcoal)
+Typography: Serif headings (e.g., Playfair Display) for a premium feel; Sans-serif body (e.g., Montserrat) for readability.
+Layout Patterns: Full-bleed hero sections, generous white space, and a contained grid (1200px) for product listings.
+9. Technical Requirements
+Auth / Identity: None required for MVP (Guest-first approach).
+SEO: Meta tags for "Kannauj Perfumes," "Luxury Fabric Fragrance," and schema markup for products.
+Integrations: SMTP server for transactional emails; Razorpay or Cashfree for UPI/Card processing.
+Platform Targets: Responsive web (Optimized for Mobile/Safari and Desktop/Chrome).
+10. Non-Functional Requirements
+Performance: Image optimization (WebP) to ensure the "Showroom" loads in < 2 seconds.
+Security: SSL/HTTPS mandatory; PCI-compliant payment processing.
+Accessibility: WCAG 2.1 compliant color contrast for text on cream backgrounds.
+11. Out of Scope (V2)
+Admin Dashboard: Backend interface for seller inventory/order management.
+OrderTrackingScreen: Dedicated UI for inputting Order IDs to see real-time status.
+SandalwoodTherapyScreen: Long-form blog/educational page about extraction purity.
+Gifting Features: "Build-your-own" bundle functionality and premium gift-wrapping selectors.
+AboutUsScreen: Full-page deep dive into the brand's history.
+
+// i should be able to deploy on vercel and the website should work on the client side 
+should readjust on mobile view when needed, but most importantly it should work flawlessly on desktop view

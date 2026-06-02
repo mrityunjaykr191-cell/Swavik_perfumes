@@ -1,0 +1,564 @@
+# Swavik Fabric Perfumes
+
+## Product Requirements Document (Enhanced Version)
+
+---
+
+# 1. Product Overview
+
+Swavik Fabric Perfumes is a premium luxury fragrance and fabric perfume brand originating from Kannauj, India.
+
+The platform functions as both:
+
+* A luxury digital showroom
+* A direct-to-consumer e-commerce store
+
+The experience should communicate:
+
+* Heritage
+* Craftsmanship
+* Exclusivity
+* Modern luxury
+
+The visual and experiential quality should be comparable to premium fragrance brands such as:
+
+* Isak Fragrances
+* Ajmal Perfumes
+* Adil Qadri
+* Raahi Parfums
+
+---
+
+# 2. Problem Statement
+
+(Keep original PRD content)
+
+---
+
+# 3. Target Users
+
+(Keep original PRD content)
+
+---
+
+# 4. Core Features
+
+## MVP
+
+### Showroom Experience
+
+* Full-screen luxury hero section
+* Heritage storytelling
+* Collection showcase
+* Featured products
+
+### Product Detail Experience
+
+Dedicated product page containing:
+
+* Image gallery
+* Fragrance profile
+* Product story
+* Benefits
+* Usage guide
+* FAQs
+* Related products
+
+### Guest Checkout
+
+(Original requirement)
+
+### Payments
+
+(Original requirement)
+
+### SMTP Notifications
+
+(Original requirement)
+
+---
+
+## V2
+
+### Collections
+
+* Global Collection
+* Indian Heritage Collection
+* Middle Eastern Collection
+* Gourmand Collection
+
+### Order Tracking
+
+### Admin Dashboard
+
+(Original requirements)
+
+---
+
+# 5. Information Architecture
+
+/
+│
+├── Home
+├── Shop
+├── Collections
+│   ├── Signature XI
+│   ├── Midnight Kiss
+│   ├── Born In Desert
+│   ├── Juicy Secret
+│   └── After The Shower
+├── Heritage Of Kannauj
+├── About Swavik
+├── Contact
+├── Cart
+└── Checkout
+
+---
+
+# 6. User Flows
+
+## Primary Purchase Flow
+
+Landing
+↓
+Shop
+↓
+Product Detail
+↓
+Add To Cart
+↓
+Checkout
+↓
+Order Confirmation
+
+---
+
+## Discovery Flow
+
+Landing
+↓
+Heritage Story
+↓
+Collections
+↓
+Collection Page
+↓
+Product Detail
+↓
+Checkout
+
+---
+
+## Instagram Flow
+
+Instagram
+↓
+Home
+↓
+Featured Collection
+↓
+Product Detail
+↓
+Checkout
+
+---
+
+# 7. Screen Breakdown
+
+## Landing Screen
+
+Route:
+
+/
+
+Purpose:
+
+Luxury digital showroom.
+
+Sections:
+
+1. Hero
+2. Trust Strip
+3. Brand Story
+4. Collections
+5. Best Sellers
+6. Fabric Perfume Education
+7. Why Swavik
+8. Instagram Feed
+9. Testimonials
+10. Newsletter
+11. Footer
+
+---
+
+### Landing Screen Wireframe
+
+HEADER
+
+Hero Section
+
+Trust Strip
+
+Brand Story
+
+Collection Showcase
+
+Best Sellers
+
+Fabric Perfume Education
+
+Why Swavik
+
+Instagram Feed
+
+Testimonials
+
+Newsletter
+
+Footer
+
+---
+
+## Product Listing Screen
+
+Route:
+
+/shop
+
+Purpose:
+
+Catalog browsing.
+
+Features:
+
+* Search
+* Filters
+* Collection filtering
+* Product grid
+* Quick add to cart
+
+---
+
+### Product Listing Wireframe
+
+Header
+
+Search Bar
+
+Filter Sidebar
+
+Product Grid
+
+Pagination
+
+Footer
+
+---
+
+## Product Detail Screen
+
+Route:
+
+/product/[slug]
+
+Purpose:
+
+Provide an immersive luxury fragrance exploration experience.
+
+Sections:
+
+1. Product Gallery
+2. Product Information
+3. Fragrance Notes
+4. Product Story
+5. Benefits
+6. Fabric Perfume Education
+7. Application Guide
+8. FAQs
+9. Related Products
+
+---
+
+### Product Detail Wireframe
+
+Header
+
+Gallery | Product Information
+
+Fragrance Notes
+
+Story Section
+
+Benefits Grid
+
+How To Apply
+
+FAQ
+
+Related Products
+
+Footer
+
+---
+
+## Cart Drawer
+
+Purpose:
+
+Quick review of selected products.
+
+Features:
+
+* Quantity update
+* Remove item
+* Subtotal
+* Checkout CTA
+
+---
+
+## Checkout Screen
+
+Route:
+
+/checkout
+
+Single page checkout.
+
+Sections:
+
+Shipping Information
+
+Order Summary
+
+Payment Method
+
+Place Order CTA
+
+---
+
+# 8. Homepage Content Strategy
+
+Hero Message:
+
+Luxury Fabric Perfumes From The Heart Of Kannauj
+
+Subheading:
+
+Rooted In Nature. Inspired By The World.
+
+Primary CTA:
+
+Shop Collection
+
+Secondary CTA:
+
+Discover Heritage
+
+---
+
+# 9. Product Content Structure
+
+Every product must support:
+
+Product Name
+
+Collection
+
+Price
+
+Volume
+
+Description
+
+Story
+
+Top Notes
+
+Middle Notes
+
+Base Notes
+
+Benefits
+
+Usage Instructions
+
+FAQs
+
+Images
+
+Related Products
+
+---
+
+# 10. Design Guidelines
+
+Theme:
+
+Modern Heritage
+
+Visual Direction:
+
+Luxury
+Elegant
+Minimal
+Editorial
+
+Inspired by:
+
+* Isak Fragrances
+* Ajmal
+* Adil Qadri
+* Raahi
+
+Color Palette:
+
+Primary:
+#8B5E3C
+
+Secondary:
+#D4AF37
+
+Background:
+#FDFBF7
+
+Text:
+#2D2D2D
+
+Typography:
+
+Headings:
+Playfair Display
+
+Body:
+Montserrat
+
+Layout:
+
+1200px container
+
+Generous whitespace
+
+Large imagery
+
+Premium typography hierarchy
+
+---
+
+# 11. Responsive Behaviour
+
+Desktop First
+
+Desktop:
+1440px optimized
+
+Laptop:
+1280px optimized
+
+Tablet:
+Responsive stacking
+
+Mobile:
+Single-column layout
+
+Navigation becomes hamburger menu.
+
+Product gallery converts to swipe carousel.
+
+Filters become drawer.
+
+Checkout remains single page.
+
+---
+
+# 12. SEO Requirements
+
+Keywords:
+
+Kannauj Perfumes
+
+Luxury Fabric Perfume
+
+Fabric Fragrance India
+
+Natural Perfumes
+
+Premium Attars
+
+Implement:
+
+* Open Graph
+* Metadata
+* Canonical URLs
+* Product Schema
+* FAQ Schema
+
+---
+
+# 13. Technical Requirements
+
+Framework:
+Next.js 15
+
+Language:
+TypeScript
+
+Styling:
+Tailwind CSS
+
+UI:
+shadcn/ui
+
+Animation:
+Framer Motion
+
+Payments:
+Razorpay
+
+Email:
+Nodemailer SMTP
+
+Deployment:
+Vercel
+
+Images:
+next/image
+
+---
+
+# 14. Performance Requirements
+
+LCP under 2 seconds
+
+WebP images
+
+Lazy loading
+
+Optimized assets
+
+Minimal client-side JS
+
+---
+
+# 15. Accessibility
+
+WCAG 2.1
+
+Keyboard navigation
+
+ARIA labels
+
+Accessible forms
+
+---
+
+# 16. Out Of Scope (V2)
+
+Admin Dashboard
+
+Order Tracking Page
+
+Advanced Gifting
+
+Custom Bundles
+
+Sandalwood Therapy Educational Hub
