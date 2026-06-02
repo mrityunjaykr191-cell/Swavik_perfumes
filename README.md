@@ -10,17 +10,17 @@ Swavik Fabric Perfumes is a premium luxury e-commerce store showcasing artisanal
 
 ### Core Functionality
 
-- ✨ **Luxury Showroom Experience** – Full-screen hero, parallax sections, premium typography
-- 🛍️ **Product Catalog** – Advanced filtering, search, collection browsing
-- 📄 **Detailed Product Pages** – Image galleries, scent notes, stories, FAQs, related products
-- 🛒 **Shopping Cart** – Client-side cart with localStorage persistence
-- 💳 **Guest Checkout** – Simple, no-account-required purchasing flow
-- 📧 **Email Notifications** – Order confirmations via Nodemailer
-- 💳 **Payment Integration Ready** – Razorpay integration structure (COD, UPI, Card)
-- 📱 **Fully Responsive** – Mobile-first design with graceful desktop optimizations
-- ♿ **Accessible** – WCAG 2.1 compliant, keyboard navigation, proper ARIA labels
-- 🎬 **Smooth Animations** – Framer Motion for elegant, non-intrusive transitions
-- 📊 **SEO Optimized** – Meta tags, Open Graph, product schema, canonical URLs
+- **Luxury Showroom Experience** – Full-screen hero, parallax sections, premium typography
+- **Product Catalog** – Advanced filtering, search, collection browsing
+- **Detailed Product Pages** – Image galleries, scent notes, stories, FAQs, related products
+- **Shopping Cart** – Client-side cart with localStorage persistence
+- **Guest Checkout** – Simple, no-account-required purchasing flow
+- **Email Notifications** – Order confirmations via Nodemailer
+- **Payment Integration Ready** – Razorpay integration structure (COD, UPI, Card)
+- **Fully Responsive** – Mobile-first design with graceful desktop optimizations
+- **Accessible** – WCAG 2.1 compliant, keyboard navigation, proper ARIA labels
+- **Smooth Animations** – Framer Motion for elegant, non-intrusive transitions
+- **SEO Optimized** – Meta tags, Open Graph, product schema, canonical URLs
 
 ### Pages Included
 
